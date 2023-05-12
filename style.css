@@ -1,0 +1,81 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#all-page {
+    padding:0% 15%;
+}
+    #top-bar {
+        color:white;
+        background-color:black;
+        display:flex;
+        align-items: center;
+        padding-left:30px;
+        height: 50px;
+    }
+    #Your-Feed-bar {
+        display:flex;
+        align-items:center;
+        justify-content: center;
+        padding: 10px;
+    }
+    #columns {
+        display:flex;
+    }
+        #left-column {
+            flex:1;
+        }
+            #user-box {
+                border: 3px solid black;
+                margin-right:30px;
+                display:flex;
+                flex-direction:column;
+                align-items:center;
+            }
+                #placeholder-image {
+                    margin:30px;
+                    height: 100px;
+                }
+                #user-name {
+                    margin:30px 0px;
+                    font-size:30px;
+                }
+        #right-column {
+            flex:3;
+        }
+            .post-box {
+                border: 3px solid black;
+                padding: 0px 8%;
+                font-size: 30px;
+                margin-bottom:30px;
+            }
+                .post-box-top-line {
+                    display:flex;
+                    align-items:center;
+                    justify-content:space-between;
+                    margin: 15px 0px;
+                }
+                    .post-box-top-line-right {
+                        display:flex;
+                        align-items:center;
+                    }
+                        .likes-counter {
+                            margin-right: 40px;
+                        }
+                        .likes-counter-2 {
+                            margin-right: 40px;
+                        }
+                        .likes-counter-3 {
+                            margin-right: 40px;
+                        }
+                        .like-button {
+                            background-color: gold;
+                            border: 3px solid black;
+                            font-size: 30px;
+                            box-shadow: 3px 3px black;
+                        }
+                .post-box-message{
+                    margin-bottom:20px;
+                    font-size: 35px;
+                }
